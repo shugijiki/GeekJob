@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>クエリストサンプル</title>
+  </head>
+  <body>
+    <form action="test1.jsp" method="get">
+      <!-- formタグで括られた入力項目はこれら -->
+      総額<input type="text" name="total">
+      　　個数
+      <select name="count">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      </select><br><br>
+      
+      1：雑貨<input type="radio" name="type" value="1">
+      2：生鮮食品<input type="radio" name="type" value="2">
+      3：その他<input type="radio" name="type" value="3"><br><br><br>
+      <input type="submit" name="btnSubmit">
+    </form>
+  </body>
+</html>
